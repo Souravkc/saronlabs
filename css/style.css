@@ -1,8 +1,10 @@
+
 .navbar{
     transition: 0.3s all ease-in-out;
     height: 60px;
 }
-.navbar2.bgwhite{
+.navbar2.bgwhite,
+.navbar-nav2{
     background-color: #6a040f !important;
 }
 .navbar2.bgwhite1{
@@ -11,52 +13,12 @@
 .navbar-dark .nav-item > .nav-link.active  {
     color:white;
 }
-.navbar1.bgwhite{
+.navbar1.bgwhite,
+.navbar-nav1{
     background-color: #061b3a !important;
 }
 .navbar1.bgwhite1{
     background-color: #061b3a !important;
-}
-
-.jumbotron {
-    background:url("../assets/Web\ 1920\ –\ 1.png");
-    background-size: cover;
-    height: 100vh;
-}
-
-.mycustom-jumbotron{
-    border: 10px;
-    margin: auto;
-    position: relative;
-    color:black;
-
-}
-
-.jumbotron-test{
-    font-size: 17px;
-    cursor: pointer;
-    text-align: center;
-    text-emphasis-color: white;
-    
-}
-
-.btn-primary {
-    background-color: #c60063;
-    border-color: #c60063;
-}
-
-.btn-secondary {
-    background-color: transparent;
-    border-color: #c60063;
-    color: #c60063;
-}
-
-#contact {
-    background: url("../assets/desktop.jpg") no-repeat center;
-}
-
-#about {
-    background: none;
 }
 
 .footer-dark {
@@ -194,6 +156,9 @@
 
 }
 
+
+
+
                                                   /* landing page */
 
 .home-m-section{
@@ -236,7 +201,7 @@
     margin-bottom: 40px;
     line-height: 28px;
     font-weight: 400;
-    padding-left: 290px;
+    padding-left: 100px;
     
 }
 .home-m-section .bg-shapes div{
@@ -504,7 +469,7 @@
     height: 60px;
     width: 60px;
     top: 10%;
-    left: 90%;
+    left: 75%;
     background-color:transparent;
     border-radius: 50%;
     border: 5px solid #ffffff;
@@ -686,6 +651,8 @@ padding: 80px 0 80px;
 .product-section .product-img{
     border-bottom: 1px solid #eeeeee;
     position: relative;
+    margin: 0 auto;
+    width: 75%;
 }
 .product-section .product-img img{
     width: 100%;
@@ -837,4 +804,14 @@ padding: 80px 0 80px;
 .faq-section .readmore-btn:focus {
     border: none !important;
     box-shadow: none !important;
+}
+
+
+
+
+.product-section .product-item .product-img{
+    padding-top: 30px;
+    padding-right: 30px;
+    padding-bottom: 30px;
+    padding-left: 30px;
 }
