@@ -24,7 +24,7 @@
 .footer-dark {
     padding: 50px 0;
     color: #f0f9ff;
-    background-color: transparent;
+    background-color: #171717;
 }
 
 .footer-dark h3 {
@@ -47,7 +47,6 @@
     text-decoration: none;
     opacity: 0.6;
 }
-
 .footer-dark ul a:hover {
     opacity: 0.8;
 }
@@ -130,13 +129,6 @@
 
 .text-center {
     margin-top: 30px;
-
-}
-
-.about {
-    background:url("../assets/about.png");
-    background-size: cover;
-    height: 600px;
 
 }
 
@@ -304,72 +296,7 @@
     padding-bottom: 20px;
 }
 
-   /*contact-section */
-
-.contact-section{
-    background-color: #ffffff;
-    padding: 80px 0  80px;
-}
-/*.contact-section .form-group .mybtn2{
-    color: #ffffff;
-}*/
-.contact-section .contact-form .form-group{
-    margin-bottom: 15px;
-}
-.contact-section .contact-form .form-control{
-    height: 50px;
-    color: #555555;
-    border: none;
-    border-bottom: 2px solid #d9d9d9;
-    border-radius: 0;
-    transition: all 0.5s ease;
-}
-.contact-section .contact-form textarea.form-control{
-    height: 200px;
-}
-.contact-section .contact-form .form-control:focus{
-    box-shadow: none;
-}
-#status{
-    text-align: center;
-    margin-left: 120px;
-    margin-right: 120px;
-}
-#status.success{
-    background-color: rgb(211, 250, 153);
-    animation: status 4s ease forwards;
-}
-#status.error{
-    background-color: rgb(250, 129, 92);
-    animation: status 4s ease forwards;
-}
-@keyframes status{
-    0%{
-        opacity: 1;
-        pointer-events: all;
-    }
-    90%{
-        opacity: 1;
-        pointer-events: all;
-    }
-    100%{
-        opacity: 0;
-        pointer-events: none;
-    }
-}
-.product-section1 .features img{
-    display: block;
-    margin: 0 auto;
-    width: 60%;
-}
-.alt img{
-    height: 80px;
-}
-.contact-section .contact-form .form-control:focus{
-    border-color: #6a040f;
-}
-
-
+  
 
 
 
