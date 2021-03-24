@@ -24,7 +24,7 @@
 .footer-dark {
     padding: 50px 0;
     color: #f0f9ff;
-    background-color: #282d32;
+    background-color: transparent;
 }
 
 .footer-dark h3 {
@@ -357,10 +357,17 @@
         pointer-events: none;
     }
 }
-
-
-
-
+.product-section1 .features img{
+    display: block;
+    margin: 0 auto;
+    width: 60%;
+}
+.alt img{
+    height: 80px;
+}
+.contact-section .contact-form .form-control:focus{
+    border-color: #6a040f;
+}
 
 
 
@@ -652,7 +659,7 @@ padding: 80px 0 80px;
     border-bottom: 1px solid #eeeeee;
     position: relative;
     margin: 0 auto;
-    width: 75%;
+    width: 80%;
 }
 .product-section .product-img img{
     width: 100%;
@@ -806,12 +813,3 @@ padding: 80px 0 80px;
     box-shadow: none !important;
 }
 
-
-
-
-.product-section .product-item .product-img{
-    padding-top: 30px;
-    padding-right: 30px;
-    padding-bottom: 30px;
-    padding-left: 30px;
-}
